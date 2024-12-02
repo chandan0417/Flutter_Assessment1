@@ -7,6 +7,8 @@ class InputScreen extends StatelessWidget {
   final TextEditingController _namecontroller = TextEditingController();
   final TextEditingController _emailcontroller = TextEditingController();
 
+  InputScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

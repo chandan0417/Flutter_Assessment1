@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import '../models/user_data.dart';
 
 class OutputScreen extends StatelessWidget {
+  const OutputScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     final userData = Provider.of<UserData>(context);
